@@ -13,9 +13,13 @@ public class NexusApplication {
         SpringApplication.run(NexusApplication.class, args);
     }
 
-    @RequestMapping("feature_one")
+    @RequestMapping("feature_one_two")
     public String one(){
-        return "feature_one";
+        return "feature_one_two";
+    }
+    @RequestMapping("feature_two")
+    public String two(){
+        return "feature_two";
     }
     @RequestMapping("release_one_two")
     public String release(){
