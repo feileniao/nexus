@@ -17,8 +17,12 @@ public class NexusApplication {
     public String one(){
         return "feature_one";
     }
-    @RequestMapping("release_one")
+    @RequestMapping("release_one_two")
     public String release(){
-        return "release_one";
+        return "release_one_two";
+    }
+    @RequestMapping("hotfix_one")
+    public String hotfix(){
+        return "hotfix_one";
     }
 }
