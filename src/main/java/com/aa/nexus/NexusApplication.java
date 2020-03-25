@@ -13,6 +13,10 @@ public class NexusApplication {
         SpringApplication.run(NexusApplication.class, args);
     }
 
+    @RequestMapping("test")
+    public String test(){
+        return "test";
+    }
     @RequestMapping("feature_one_two")
     public String one(){
         return "feature_one_two";
