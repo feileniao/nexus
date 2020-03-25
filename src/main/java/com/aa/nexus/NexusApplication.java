@@ -17,6 +17,10 @@ public class NexusApplication {
     public String test(){
         return "test";
     }
+    @RequestMapping("test2")
+    public String test2(){
+        return "test2";
+    }
     @RequestMapping("feature_one_two")
     public String one(){
         return "feature_one_two";
